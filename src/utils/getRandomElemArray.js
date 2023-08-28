@@ -1,6 +1,11 @@
 const getRandomElemArray = (arr) => {
     const indexRandom = Math.floor(Math.random() * arr.length);
-return arr[indexRandom]
+    return arr[indexRandom]
+
+
+    
 }
 
-export default getRandomElemArray
+export default getRandomElemArray;
+
+

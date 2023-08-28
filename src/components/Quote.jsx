@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Quote = ({phrase}) => {
+const Quote = ({quote}) => {
 
   return (
-    <p className='container_phrase'>{phrase.phrase}</p>
+    <p className='container_phrase'>{quote.phrase}</p>
   )
 }
 
